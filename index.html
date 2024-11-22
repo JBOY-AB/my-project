@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio </title>
+    <link rel="stylesheet" href="/personal portifolio/personal-portfolio/asest/style/style.css">
+    <link rel="stylesheet" href="asest/style/fontawesome/css/all.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="nav-list">
+                <!-- <img src="/asest/personal-portfolio-img/images/logo.png" alt="logo"> -->
+                 <label><h1>techDo</h1></label>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web developer</p>
+                <h1>Hi, I'm <span>Jeremiah</span><br>founder of techDo</h1>
+            </div>
+        </div>
+    </div>
+
+            
+        <div class="mouse-scroll">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="mouse-arrow">
+                <span></span>
+            </div> 
+        </div>
+    <!-- -----------------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="asest/personal-portfolio-img/images/user.png" alt="omage">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt sit ducimus blanditiis inventore harum neque vero eveniet nulla, similique eius qui aut corporis rerum eum labore odit rem debitis dolor accusantium quia dicta sed! Sint dignissimos nesciunt commodi aperiam recusandae laboriosam similique aspernatur, error corporis fuga velit illo fugit dolore officiis mollitia ipsum at nihil quasi ratione! Ducimus officia necessitatibus obcaecati distinctio mollitia reprehenderit tempore perferendis enim adipisci praesentium cum aperiam consequatur cumque vero rerum optio iusto delectus expedita soluta, architecto consequuntur? Quasi eveniet dolorem, deleniti sed repellat quibusdam saepe?</p>
+                   
+                   
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills </p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <!-- <li><span>UI/UX</span><br>Designing web/app interfaces</li> -->
+                            <li><span>Web Development</span><br> web/app interfaces</li>
+                            <li><span>App Development</span><br>Building Andriod/IOS apps </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <!-- <li><span>2021 - current</span><br>UI/UX Design Training at ET Instition</li> -->
+                            <li><span>2019 - 2021</span><br>  Team lead at uplead</li>
+                            <li><span>2017 - 2019</span><br>web developer  at coin Digital Ltd. </li>
+                            <li><span>2016 - 2017</span><br> Intership at brainycodes.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br>web Development at Honey Treat Academy</li>
+                            <li><span>2016</span><br>MBA from lagos state techonology school </li>
+                            <li><span>2014</span><br>BBA  from  benin</li>
+                        </ul>
+
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------------services-------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2> App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore?</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+       
+        </div>
+    </div>
+    <!-- -----------------------------portfolio-------------------- -->
+     <div id="portfolio">`
+        <div class="container">
+            <h1 class="sub-title">My Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="asest/personal-portfolio-img/images/work-1.png" alt="workpng1">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi non dolor voluptatem, culpa nihil perspiciatis!</p>
+                        <a href="#"> <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="asest/personal-portfolio-img/images/work-2.png" alt="workpng1">
+                    <div class="layer">
+                        <h3>Music  App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi non dolor voluptatem, culpa nihil perspiciatis!</p>
+                        <a href="#"> <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="asest/personal-portfolio-img/images/work-3.png" alt="workpng1">
+                    <div class="layer">
+                        <h3>Online Shopping  App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi non dolor voluptatem, culpa nihil perspiciatis!</p>
+                        <a href="#"> <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+     <!-- --------------------------------contact---------------- -->
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="/asest/personal-portfolio-img/images/my-cv.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email"  name="Email" placeholder="Your email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ jayboyTech <i class="fas fa-heart"></i></p>
+        </div>
+        <a href="#top" class="scroll-to-top">
+            ↑
+        </a>
+
+
+
+
+
+
+
+
+
+<!-- --------------------------------------javascript---------------------------- -->
+
+
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+        for( tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for( tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+         var sidemeu = document.getElementById("sidemenu");
+
+         function openmenu(){
+            sidemeu.style.right = "0";
+         }
+         function closemenu(){
+            sidemeu.style.right = "-200px";
+         }
+         
+         
+    </script>
+    
+</body>
+</html>
+
+
+
+    
